@@ -1,0 +1,129 @@
+/*Google Font Roboto Link*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+/*Scrollbar Style*/
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+	background: steelblue;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: dodgerblue;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+	background: #f4c4f3;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #fc67fa, #f4c4f3);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #fc67fa, #f4c4f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/*Shopping List Section Styles*/
+.shoppinglist {
+	margin-top: 150px;
+	background: #fff;
+	box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.2);
+	padding: 10px;
+	width: 90%;
+}
+
+@media screen and (min-width: 567px) {
+	.shoppinglist {
+		width: 600px;
+	}
+}
+
+/*Heading Style*/
+h1 {
+	color: orchid;
+}
+
+/*Input Form Style*/
+#userinput {
+	padding: 25px 20px;
+	width: 80%;
+	border-radius: 50px;
+
+}
+
+/*Edit Icon Style*/
+.fa-edit {
+	font-size: 1.5em;
+}
+
+/*Enter Button Style*/
+#enter {
+	border-radius: 10px;
+}
+
+/*List Styles*/
+ul {
+	list-style-type: none;
+	padding-left: 0;
+	padding: 10px;
+}
+
+ul li {
+	border: 2px solid orchid;
+	padding: 10px 15px;
+	border-radius: 50px;
+	margin-bottom: 10px;
+}
+
+@media screen and (min-width: 567px) {
+	ul li {
+		padding: 20px 20px 20px 30px;
+		font-size: 1.2rem;
+		margin-bottom: 15px;
+	}
+}
+
+/*Remove and Complete Buttons Styles*/
+.remove, .complete {
+	border: 1px solid var(--danger);
+	border-radius: 50%;
+	margin-right: 5px;
+	color: var(--danger);
+}
+
+@media screen and (min-width: 567px) {
+	.remove, .complete {
+		padding: 10px 15px;
+		margin-top: -10px;
+		margin-right: 10px;
+	}
+}
+
+.complete {
+	margin-right: 0px;
+	border-color: var(--success);
+	color: var(--success);
+}
+
+.remove:hover, .remove:focus {
+	color: #fff;
+	background: var(--danger);
+	outline: none;
+}
+
+.complete:hover, .complete:focus {
+	color: #fff;
+	background: var(--success);
+	outline: none;
+}
+
+/*Complete List Styles*/
+.done {
+	background: var(--info);
+	color: #fff;
+	border-color: var(--info);
+}
