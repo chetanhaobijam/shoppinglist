@@ -1,0 +1,2 @@
+Shopping List Web Page where you can add your desired objects you want to buy from the market in the list. You can mark an item as complete by checking at the tick button. You can also remove an item by clicking at the Trash button.
+Enjoy. Have a great Shopping.
